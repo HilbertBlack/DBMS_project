@@ -1,0 +1,219 @@
+p{
+    color:black;
+}
+.login-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Left Panel */
+  .left-panel {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url('./vote.jpg') no-repeat center center/cover;
+    color: white;
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  
+  /* Right Panel */
+  .right-panel {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f9fafb;
+    padding: 40px;
+  }
+  
+  /* Rest of your existing CSS remains the same */
+  .logo-container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .left-panel h1 {
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 700;
+  }
+  
+  .left-panel h2 {
+    font-size: 1.8rem;
+    margin: 1rem 0 0 0;
+    font-weight: 500;
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    opacity: 0.9;
+  }
+  
+  .left-panel .logo-box {
+    display: inline-flex;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    padding: 0 12px;
+    margin-right: 4px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    font-size: 3rem;
+  }
+  
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .form-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #1a1a1a;
+  }
+  
+  .greeting {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #666;
+  }
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #333;
+    font-size: 0.9rem;
+  }
+  
+  .right-panel input {
+    padding: 14px;
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  .right-panel input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .remember-me input {
+    margin-right: 8px;
+  }
+  
+  .forgot {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .forgot:hover {
+    color: #3e8e41;
+  }
+  
+  .divider {
+    text-align: center;
+    margin: 2rem 0;
+    color: #999;
+    position: relative;
+    font-size: 0.9rem;
+  }
+  
+  .divider span {
+    position: relative;
+    padding: 0 10px;
+    background-color: #f9fafb;
+    z-index: 1;
+  }
+  
+  .divider::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+    top: 50%;
+    left: 0;
+  }
+  
+  .outlook-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    color:black;
+  }
+  
+  .outlook-btn:hover {
+    border-color: #bbb;
+    background-color: #f5f5f5;
+  }
+  
+  .outlook-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
